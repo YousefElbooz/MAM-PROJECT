@@ -53,8 +53,8 @@ const Contact = () => {
   // }
   const formRef = useRef();
   const [form, setForm] = useState({
-    name: " ",
-    email: " ",
+    name: "",
+    email: "",
     message: "",
   });
 
@@ -80,9 +80,9 @@ const Contact = () => {
         "template_ahol33o",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Yosef",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "yoosefelbooz@gmail.com",
           message: form.message,
         },
          "Es3UPA2i09dR9pwKL"
