@@ -34,8 +34,8 @@ const Contact = () => {
         message: form.message,
       }, 
          "Es3UPA2i09dR9pwKL"
-    )
-    .then(() => {
+    ).then
+     (() => {
         setLoading(false);
         alert("Thank you. I will get back to you as soon as possible.");
 
