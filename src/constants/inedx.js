@@ -17,12 +17,15 @@ import {
     docker,
     meta,
     starbucks,
+    cpp,
+    python,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    mam
   } from "../assets";
   
   export const navLinks = [
@@ -42,21 +45,21 @@ import {
   
   const services = [
     {
+      title: "Computer Science Student",
+      icon: creator,
+    },
+    {
       title: "Web Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "ML Student",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    }
   ];
   
   const technologies = [
@@ -116,37 +119,22 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Cpp Developer",
+      company_name: "Asu",
+      icon: cpp,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2024 - April 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I developed an engaging and interactive game using C++ and the Simple and Fast Multimedia Library (SFML).",
+        " This project showcases my ability to design, implement, and optimize a complete game from the ground up, highlighting my skills in software development game mechanics, and multimedia handling."
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      company_name: "MAM-Web",
+      icon: mam,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jan 2023 - Jan 2024",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,16 +143,14 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Machine Learning Developer",
+      company_name: "Student",
+      icon: python,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I have applied my knowledge of Machine Learning (ML) to develop various projects that demonstrate my ability to preprocess data, build models, and evaluate their performance.",
+        " These projects highlight my proficiency in applying ML techniques to solve real-world problems and showcase my skills in data analysis, model development, and deployment.",
       ],
     },
   ];
