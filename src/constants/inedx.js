@@ -205,9 +205,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Restaurant",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that allows users to view the menu, make reservations, find the restaurant’s location, and read customer reviews.",
       tags: [
         {
           name: "react",
