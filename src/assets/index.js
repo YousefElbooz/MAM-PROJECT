@@ -30,7 +30,7 @@ import mam from "./company/mam.png";
 
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import restaurant from "./restaurant.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -60,7 +60,7 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
+  restaurant,
   tripguide,
   cpp,
   python,
