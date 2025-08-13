@@ -5,6 +5,9 @@ import { styles } from '../Style';
 import Earth from './canvas/Earth';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
+import { linkedIn } from '../assets';
+import { facebook } from '../assets';
+import { khmsat } from '../assets';
 import emailjs from '@emailjs/browser';
 
 import EarthCanvas from './canvas/Earth';
@@ -73,6 +76,32 @@ const Contact = () => {
         >
           <p className={styles.sectionSubText}> Get in touch</p>
           <h3 className={styles.sectionHeadText}>Contact.</h3>
+          <div className='flex flex-row gap-5'>
+<a
+            href='https://www.linkedin.com/in/yosefelbooz/'
+            className="  w-[50px] h-[50px] rounded-full flex justify-center items-center  cursor-pointer">
+            <img src={linkedIn} 
+            alt="github"
+            className=" object-cover rounded-full"
+            /> 
+          </a>
+          <a
+            href='https://www.facebook.com/yosef.hesham.386587'
+            className="  w-[50px] h-[50px] rounded-full flex justify-center items-center  cursor-pointer">
+            <img src={facebook} 
+            alt="github"
+            className=" object-cover rounded-full"
+            /> 
+          </a>
+                    <a
+            href='https://khamsat.com/user/yosefelbooz'
+            className="  w-[50px] h-[50px] rounded-full flex justify-center items-center  cursor-pointer">
+            <img src={khmsat} 
+            alt="github"
+            className=" object-cover rounded-full"
+            /> 
+          </a>
+          </div>
           <form 
           ref={formRef}
           onSubmit={handleSubmit}

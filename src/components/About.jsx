@@ -40,11 +40,10 @@ Variants={textVariant()}>
 </motion.div>
 <motion.p 
 variants={fadeIn(',',0.1,1)} className=' mt-4 text-secondary text-[17px] max-2-3xl leading-[30px]'>
-        I'm a skilled software developer student with experience in
-        JavaScript, and expertise in frameworks like React, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+  I’m a MEAN Stack Developer who helps turn your ideas into web applications that work flawlessly, look amazing, and deliver real results. I combine fresh ideas, creative problem-solving, and a flexible approach to build applications that stand out in today’s crowded market.
+For me, building your application should feel inspiring, not overwhelming. I transform your goals into a smooth, enjoyable process — adapting quickly to changes, overcoming challenges with smart solutions, and keeping you in the loop with clear, friendly communication.
+The result? An application you love, a process you enjoy, and the peace of mind that everything is handled.
+Let’s bring your vision to life — faster, smarter, and stress-free.
 </motion.p>
 <div className='mt-20 flex flex-wrap gap-10'>
     {services.map((services,index)=>(

@@ -18,7 +18,9 @@ const Hero = () => {
       <p className={`${styles.heroSubText} mt-2 text-white-100`}>
         I'm a Computer Science student at ASU in Egypt 
         <br className="sm:block hidden"/>
-        and I looking forward to work in the AI-field to build the Future
+        Website Developer with MEAN Stack.
+        <br className="sm:block hidden"/>
+        Looking forward to work with you. 
       </p>
     </div>
       </div>        

@@ -6,7 +6,7 @@ import { experiences } from "../constants/inedx";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
-const ExperienceCard=({experience})=>(
+const EducationCard=({experience})=>(
   <VerticalTimelineElement
   contentStyle={{background:'#1d1836',color:'#fff'}}
   contentArrowStyle={{borderRight:'7px solid #232631'}}
@@ -36,13 +36,13 @@ const ExperienceCard=({experience})=>(
   )
 
 
-const Experience = () => {
+const Education = () => {
   return (
     <>
     <motion.div 
     variants={textVariant()}>
     <p className={styles.sectionSubText}>What I have done so far</p>
-    <h2 className={styles.sectionHeadText}>Education </h2>
+    <h2 className={styles.sectionHeadText}>Work Experience.</h2>
     </motion.div>
     <div
     className=" mt-20 flex flex-col">
@@ -58,4 +58,4 @@ const Experience = () => {
   )
 }
 
-export default SectionWrapper(Experience,"work")
+export default SectionWrapper(Education,"work")

@@ -19,7 +19,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import asu from './company/college.jpg'
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -27,13 +27,29 @@ import tesla from "./company/tesla.png";
 import cpp from "./company/cpp.png";
 import python from "./company/Python.png";
 import mam from "./company/mam.png";
-
-
+import mapRouting from './maproute.png';
+import movieApp from './movieApp.png';
+import gymPadelSystem from "./gymPadel.png";
+import hospitalApp from './hospital.png';
+import iti from "./company/iti.png";
+import nti from "./company/nti.png";
 import carrent from "./carrent.png";
 import restaurant from "./restaurant.png";
 import tripguide from "./tripguide.png";
-
+import linkedIn from './linkedIn.webp';
+import facebook from './facebook.jpg';
+import khmsat from './5msat.png';
 export {
+  khmsat,
+  facebook,
+  linkedIn,
+  hospitalApp,
+  gymPadelSystem,
+  mapRouting,
+  movieApp,
+  asu,
+  nti,
+  iti,
   logo,
   backend,
   creator,
